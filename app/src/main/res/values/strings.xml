@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">MPT7</string>
-    <string name="volkswagen_passat_b3">Volkswagen Passat B3</string>
+    <string name="volkswagen_passat_b3">Volkswagen Passat B3</string>э
+    <string name="one_mpt7">Купе</string>
+    <string name="two_mpt7">Седан</string>
+    <string name="three_mpt7">Универсал</string>
+    <string name="four_mpt7">Xэтчбек</string>
+    <string name="theme">Тема Димы</string>
+    <string name="oApk_string">Приложение: (Название)\nВерсия: (Почему бы и нет:))\n\nРазработчик: (Пример: Опаницин Дмитрий)\n\nСправка: (Но думаю что тут всё понятно)</string>
+    <string name="TODO">TODO</string>
+    <string name="const_text_string">О приложении</string>
 </resources>
