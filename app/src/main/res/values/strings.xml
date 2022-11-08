@@ -6,7 +6,7 @@
     <string name="three_mpt7">Универсал</string>
     <string name="four_mpt7">Xэтчбек</string>
     <string name="theme">Тема Димы</string>
-    <string name="oApk_string">Приложение: (Название)\nВерсия: (Почему бы и нет:))\n\nРазработчик: (Пример: Опаницин Дмитрий)\n\nСправка: (Но думаю что тут всё понятно)</string>
+    <string name="oApk_string">Приложение: Android-приложения продукции компании Volkswagen\nВерсия: 0.0.1\n\nРазработчик: Опаницин Дмитрий\n\nСправка: (Но думаю что тут всё понятно)</string>
     <string name="TODO">TODO</string>
     <string name="const_text_string">О приложении</string>
 </resources>
