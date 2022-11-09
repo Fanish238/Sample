@@ -19,8 +19,8 @@ public class ListViewing extends AppCompatActivity {
     List<ImageView> list_img = new ArrayList<>();
     List<TextView> list_text = new ArrayList<>();
     Dialog dialog;
-    String[] name_mas_one, name_mas_two;
-    String mDrawableName, mStringName, mName;
+    String[] name_mas_one, name_mas_two, name_mas_three, name_mas_four;
+    String mDrawableName, mName;
     int resDrawableID, resStringID, resDrawableID2;
     int id;
 
@@ -55,6 +55,10 @@ public class ListViewing extends AppCompatActivity {
                 "Volkswagen Scirocco II", "Volkswagen Arteon", "Volkswagen Passat CC", "Volkswagen Passat СС, I поколение, рестайлинг", "Volkswagen Beetle"};
         name_mas_two = new String[]{null, "Volkswagen Passat B1", "Volkswagen Passat B2", "Volkswagen Passat B3", "Volkswagen Passat B4",
                 "Volkswagen Passat B5", "Volkswagen Passat B6", "Volkswagen Passat B7", "Volkswagen Passat B8"};
+        name_mas_three = new String[]{null, "Volkswagen Passat B8","Volkswagen Passat GTE","Volkswagen Passat B7","Volkswagen Golf VII Variant","Volkswagen Jetta V",
+                "Volkswagen Passat B6","Volkswagen Bora (Jetta IV)","«Полушестой» Volkswagen Passat"};
+        name_mas_four = new String[]{null, "Volkswagen Golf VIII", "«Восьмой» Volkswagen Golf GTI","Электро-«пионер» Volkswagen: ID.3","Volkswagen Golf VII",
+                "Volkswagen Golf GTI","Volkswagen CrossPolo","Volkswagen Golf VI","Volkswagen Polo"};
 
         list_img.add(cell_1);
         list_img.add(cell_1);
@@ -114,17 +118,12 @@ public class ListViewing extends AppCompatActivity {
         }
         dialog = new Dialog(ListViewing.this);
         dialog.setContentView(R.layout.info_viewing);
-        ImageView imageView, imageView2, imageView3;
+        ImageView imageView = dialog.findViewById(R.id.img);
         TextView textView = dialog.findViewById(R.id.textView);
-        imageView = dialog.findViewById(R.id._1);
-        imageView2 = dialog.findViewById(R.id._2);
-        imageView3 = dialog.findViewById(R.id._3);
         resStringID = getResources().getIdentifier(mName, "string", getPackageName());
         resDrawableID2 = getResources().getIdentifier(mName, "drawable", getPackageName());
         textView.setText(resStringID);
         imageView.setImageResource(resDrawableID2);
-        imageView2.setImageResource(resDrawableID2);
-        imageView3.setImageResource(resDrawableID2);
         dialog.create();
         dialog.show();
     }
@@ -137,6 +136,12 @@ public class ListViewing extends AppCompatActivity {
                 break;
             case 2:
                 name_mas = name_mas_two.clone();
+                break;
+            case 3:
+                name_mas = name_mas_three.clone();
+                break;
+            case 4:
+                name_mas = name_mas_four.clone();
                 break;
             default:
                 Toast.makeText(ListViewing.this, "Error", Toast.LENGTH_SHORT).show();
