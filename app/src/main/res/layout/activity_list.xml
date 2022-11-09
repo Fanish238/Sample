@@ -25,13 +25,13 @@
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:onClick="setCell_1_OnClick"
                     android:paddingBottom="20dp">
 
                     <LinearLayout
                         android:id="@+id/cell_1"
                         android:layout_width="410dp"
                         android:layout_height="match_parent"
+                        android:onClick="setOnClick"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -40,7 +40,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:scaleType="centerCrop"
-                            tools:srcCompat="@drawable/passat_b3" />
+                            tools:srcCompat="@drawable/_2_3" />
 
                         <TextView
                             android:id="@+id/textView1"
@@ -62,8 +62,10 @@
                     android:paddingBottom="20dp">
 
                     <LinearLayout
+                        android:id="@+id/cell_2"
                         android:layout_width="410dp"
                         android:layout_height="match_parent"
+                        android:onClick="setOnClick"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -72,7 +74,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:scaleType="centerCrop"
-                            tools:srcCompat="@drawable/passat_b3" />
+                            tools:srcCompat="@drawable/_2_3" />
 
                         <TextView
                             android:id="@+id/textView2"
@@ -94,8 +96,10 @@
                     android:paddingBottom="20dp">
 
                     <LinearLayout
+                        android:id="@+id/cell_3"
                         android:layout_width="410dp"
                         android:layout_height="match_parent"
+                        android:onClick="setOnClick"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -104,7 +108,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:scaleType="centerCrop"
-                            tools:srcCompat="@drawable/passat_b3" />
+                            tools:srcCompat="@drawable/_2_3" />
 
                         <TextView
                             android:id="@+id/textView3"
@@ -126,8 +130,10 @@
                     android:paddingBottom="20dp">
 
                     <LinearLayout
+                        android:id="@+id/cell_4"
                         android:layout_width="410dp"
                         android:layout_height="match_parent"
+                        android:onClick="setOnClick"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -136,7 +142,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:scaleType="centerCrop"
-                            tools:srcCompat="@drawable/passat_b3" />
+                            tools:srcCompat="@drawable/_2_3" />
 
                         <TextView
                             android:id="@+id/textView4"
@@ -158,8 +164,10 @@
                     android:paddingBottom="20dp">
 
                     <LinearLayout
+                        android:id="@+id/cell_5"
                         android:layout_width="410dp"
                         android:layout_height="match_parent"
+                        android:onClick="setOnClick"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -168,7 +176,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:scaleType="centerCrop"
-                            tools:srcCompat="@drawable/passat_b3" />
+                            tools:srcCompat="@drawable/_2_3" />
 
                         <TextView
                             android:id="@+id/textView5"
@@ -190,8 +198,10 @@
                     android:paddingBottom="20dp">
 
                     <LinearLayout
+                        android:id="@+id/cell_6"
                         android:layout_width="410dp"
                         android:layout_height="match_parent"
+                        android:onClick="setOnClick"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -200,7 +210,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:scaleType="centerCrop"
-                            tools:srcCompat="@drawable/passat_b3" />
+                            tools:srcCompat="@drawable/_2_3" />
 
                         <TextView
                             android:id="@+id/textView6"
@@ -222,8 +232,10 @@
                     android:paddingBottom="20dp">
 
                     <LinearLayout
+                        android:id="@+id/cell_7"
                         android:layout_width="410dp"
                         android:layout_height="match_parent"
+                        android:onClick="setOnClick"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -232,7 +244,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:scaleType="centerCrop"
-                            tools:srcCompat="@drawable/passat_b3" />
+                            tools:srcCompat="@drawable/_2_3" />
 
                         <TextView
                             android:id="@+id/textView7"
@@ -254,8 +266,10 @@
                     android:paddingBottom="20dp">
 
                     <LinearLayout
+                        android:id="@+id/cell_8"
                         android:layout_width="410dp"
                         android:layout_height="match_parent"
+                        android:onClick="setOnClick"
                         android:orientation="horizontal">
 
                         <ImageView
@@ -264,7 +278,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:scaleType="centerCrop"
-                            tools:srcCompat="@drawable/passat_b3" />
+                            tools:srcCompat="@drawable/_2_3" />
 
                         <TextView
                             android:id="@+id/textView8"

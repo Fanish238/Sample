@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" >
+    android:background="@drawable/background_icon"
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/one_background"
@@ -76,15 +77,16 @@
 
         <ImageView
             android:id="@+id/four_img"
-            android:layout_width="117dp"
+            android:layout_width="125dp"
             android:layout_height="match_parent"
             android:contentDescription="@string/app_name"
             android:paddingStart="5dp"
+            android:scaleType="centerCrop"
             app:srcCompat="@drawable/four_mpt7" />
 
         <TextView
             android:id="@+id/four_string"
-            android:layout_width="168dp"
+            android:layout_width="160dp"
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/four_mpt7"
@@ -106,15 +108,16 @@
 
         <ImageView
             android:id="@+id/three_img"
-            android:layout_width="117dp"
+            android:layout_width="125dp"
             android:layout_height="match_parent"
             android:contentDescription="@string/app_name"
             android:paddingStart="5dp"
+            android:scaleType="centerCrop"
             app:srcCompat="@drawable/three_mpt7" />
 
         <TextView
             android:id="@+id/three_string"
-            android:layout_width="168dp"
+            android:layout_width="160dp"
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/three_mpt7"
@@ -136,15 +139,16 @@
 
         <ImageView
             android:id="@+id/two_img"
-            android:layout_width="117dp"
+            android:layout_width="125dp"
             android:layout_height="match_parent"
             android:contentDescription="@string/app_name"
             android:paddingStart="5dp"
+            android:scaleType="centerCrop"
             app:srcCompat="@drawable/two_mpt7" />
 
         <TextView
             android:id="@+id/two_string"
-            android:layout_width="168dp"
+            android:layout_width="160dp"
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/two_mpt7"
@@ -166,15 +170,16 @@
 
         <ImageView
             android:id="@+id/one_img"
-            android:layout_width="117dp"
+            android:layout_width="125dp"
             android:layout_height="match_parent"
             android:contentDescription="@string/app_name"
             android:paddingStart="5dp"
+            android:scaleType="centerCrop"
             app:srcCompat="@drawable/one_mpt7" />
 
         <TextView
             android:id="@+id/one_string"
-            android:layout_width="168dp"
+            android:layout_width="160dp"
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="@string/one_mpt7"
@@ -185,12 +190,12 @@
 
     <TextView
         android:id="@+id/theme"
-        android:layout_width="309dp"
-        android:layout_height="45dp"
+        android:layout_width="320dp"
+        android:layout_height="58dp"
         android:layout_marginTop="16dp"
         android:text="@string/theme"
         android:textColor="@color/black"
-        android:textSize="16sp"
+        android:textSize="18sp"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.156"

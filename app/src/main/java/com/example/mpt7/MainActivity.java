@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         three = findViewById(R.id.three_img);
         four = findViewById(R.id.four_img);
         oApk = findViewById(R.id.background_oApk);
+        setTitle(R.string.app_name);
     }
 
     @SuppressLint("NonConstantResourceId")
@@ -53,9 +54,9 @@ public class MainActivity extends AppCompatActivity {
         dialog.show();
     }
 
-    public void Trans(int a) {
+    public void Trans(int id) {
         Intent intent = new Intent(MainActivity.this, ListViewing.class);
-        intent.putExtra("a", a);
+        intent.putExtra("id", id);
         startActivity(intent);
     }
 }
